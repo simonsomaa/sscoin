@@ -1,0 +1,9 @@
+[project]
+name = "sscoin"
+version = "1.0.0"
+description = "A simple fungible token smart contract called sscoin."
+authors = ["anthony"]
+
+[contracts.sscoin]
+path = "contracts/sscoin.clar"
+depends_on = []
